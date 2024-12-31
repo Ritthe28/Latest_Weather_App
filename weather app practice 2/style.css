@@ -1,0 +1,102 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(196, 246, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.app{
+    width: 60%;
+    height: 75%;
+    margin: auto;
+    background: linear-gradient(135deg , rgb(149, 149, 212), rgb(0, 98, 255));
+    border-radius: 12px;
+    max-width: 395px;
+    max-height: 515px;
+    overflow: auto;
+}
+.container{
+    display: flex;
+}
+.input {
+    /* padding: 4px; */
+    background-color: rgb(204, 248, 223);
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 23px;
+    
+    margin-top: 3px;
+
+
+}
+input {
+    padding-left: 8px;
+    border-radius: 23px;
+     height: 45px;
+    max-height: 45px ;
+    width: 75%;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 23px;
+
+}
+button {
+    border-radius: 23px;
+    width: 20%;
+    margin-right: 1px;
+    border: none;
+
+    
+}
+/* input section has been declared till now  */
+
+
+
+.temp {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+
+}
+.reading {
+    width: 165px;
+}
+
+
+/*  */
+
+
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.hr ,.spr{
+    font-size: 30px;
+}
+
+
+.tempcontainer{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: white;
+}
+.spr, .hr{
+    color :white
+}
+.humidity{
+    margin-top:14px;
+}
